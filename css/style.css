@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.banner{
+    width: 625px;
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -999;
+}
+
+.banner img{
+    object-fit: cover;
+    object-position: left center;
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    margin: 0 auto;
+    max-width:1280px;
+}
+
+.box1{
+    margin-left: 85px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header h1{
+    text-align: left;
+    font: italic normal 900 24px/29px Raleway;
+    color: #121212;
+    margin-top: 24px;
+    z-index: 1;
+}
+
+.table{
+    display: flex;
+    z-index: 100;
+}
+
+.table a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.table li{
+    text-align: center;
+    justify-content:space-evenly;
+    margin-left: 48px;
+}
+
+.content{
+    margin-top: 183px;
+    z-index: 50;
+}
+
+.content h1{
+    font-size: 48px;
+    line-height: 64px;
+    color: #121212;
+    font: normal normal bold 48px/64px Roboto;
+}
+
+.content h2{
+    font: normal normal normal 24px/36px Roboto;
+    color:#0000009A;
+    margin-top: 24px;
+}
+
+.button{
+    margin-top: 48px;
+    background-color: #0E8A00;
+    border-radius: 4px;
+    font: normal normal bold 16px/24px Roboto;
+    padding: 19px 45px 18px 45px;
+    color:#FFFFFF;
+    border: 0px;
+    margin-bottom: 150px;
+}
+
+.feature{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.feature img{
+    width: 540px;
+    height: 400px;
+}
+
+.feature .text{
+    margin-left: 125px;
+}
+
+.text h1{
+    font-size: 24px;
+    line-height: 28px;
+    font: normal normal bold 24px/28px Roboto;
+    color:#121212;
+}
+
+.text p{
+    color:#0000009A;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font: normal normal normal 16px/24px Roboto;
+}
+
+.text a{
+    font: normal normal bold 16px/19px Roboto;
+    color:#0E8A00;
+}
+
+.feature .text2{
+    margin-right: 125px;
+    text-align: right;
+}
+
+.text2 h1{
+    font-size: 24px;
+    line-height: 28px;
+    font: normal normal bold 24px/28px Roboto;
+    color:#121212;
+}
+
+.text2 p{
+    color:#0000009A;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font: normal normal normal 16px/24px Roboto;
+}
+
+.text2 a{
+    font: normal normal bold 16px/19px Roboto;
+    color:#0E8A00;
+}
+
+.artist{
+    display: flex;
+    margin-top: 72px;
+    background-image: url(../imgs/index-5.jpg);
+    height: 400px;
+    margin-bottom: 72px;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+}
+
+.artist p{
+    color: #FFFFFF;
+    font: normal normal bold 32px/48px Roboto;
+    margin-left: 85px;
+}
+
+.information h3{
+    font: normal normal normal 16px/24px Roboto;
+    color: #FFFFFF99;
+}
+
+.information h2{
+    font: normal normal normal 24px/24px Roboto;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    margin-right: 157px;
+}
+
+.information a{
+    font: normal normal bold 14px/16px Roboto;
+    color: #0E8A00;
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    justify-content:space-around;
+}
+
+.merchandise{
+    width: 350px;
+}
+.merchandise h2{
+    margin-top: 8px;
+    text-align: left;
+    font: normal normal bold 24px/36px Roboto;
+    color: #121212;
+}
+
+.merchandise p{
+    color:#121212;
+    font: normal normal normal 16px/24px Roboto;
+    display: inline;
+}
+
+.oldPrice{
+    color: #00000062;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.merchandise img{
+    width: 350px;
+    height: 350px;
+}
+
+.footer{
+    margin-top: 72px;
+    background-image: url(../imgs/footer.jpg);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.footer h1{
+    color:#FFFFFF;
+    font: normal normal bold 48px/64px Roboto;
+    margin-left: 85px;
+    padding-top: 84px;
+}
+
+.subscribe{
+    margin-left: 85px;
+    margin-top: 48px;
+}
+
+.email{
+    font: normal normal normal 16px/24px Roboto;
+    border: 1px solid #FFFFFF99;
+    border-radius: 4px 0px 0px 4px;
+    padding:19px 134px 18px 16px;
+    background: transparent;
+    color: #FFFFFF99;
+}
+
+.footerText{
+    height: 93px;
+    background: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footerText h1{
+    margin-left: 85px;
+    font: italic normal 900 24px/29px Raleway;
+    color: #FFFFFF;
+}
+
+.footerText span{
+    color:#FFFFFF99;
+    font: normal normal normal 14px/16px Roboto;
+}
+
+.footerText .table{
+    margin-right: 85px;
+}
+
+.footerText .table li{
+    margin-left: 48px;
+}
+
+.btnSubscribe{
+    background-color: #0E8A00;
+    border-radius: 4px;
+    font: normal normal bold 16px/24px Roboto;
+    padding: 19px 45px 18px 45px;
+    color:#FFFFFF;
+    border: 0px;
+    margin-left: 0;
+}
+
+@media(max-width:360px){
+    .header h1{
+        margin:16px 118px 15px 118px;
+        color: #FFFFFF;
+        font: italic normal 900 24px/29px Raleway;
+        z-index: 999;
+    }
+    .table{
+        display: none;
+    }
+
+    .content{
+        margin-top: 0px;
+        z-index: 50;
+    }
+    
+    .content h1{
+        font: normal normal bold 48px/64px Roboto;
+        color: #FFFFFF;
+    }
+}
